@@ -9,7 +9,6 @@ def binary_search(target, list, idx = (0...list.length).to_a)
   else
     binary_search(target, list[position..-1], idx[position..-1])
   end
-  
 end
 
 puts binary_search(9, [1,2,3,4,5,6,7,8,10])
